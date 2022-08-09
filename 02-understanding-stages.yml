@@ -14,7 +14,7 @@ stages:
     - bash: echo Build First Job
     - bash: echo $(PipelineLevelVariable)
     - bash: echo $(Build.BuildNumber)
-    - bash: echo $(Build.Id)
+    - bash: echo $(Build.BuildId)
     - bash: echo $(Build.SourceBranchName)
     - bash: echo $(Build.SourceDirectory)
     - bash: echo $(System.DefaultWorkingDirectory)
